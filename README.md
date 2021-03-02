@@ -1,4 +1,4 @@
-# I bet I know what your are thinking!
+# I bet I know what you're thinking!
 In this project, I build a web app that plays a game with the user to read their mind. 
 
 
