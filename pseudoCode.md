@@ -37,7 +37,7 @@
 
 ## Function (Not in order): 
     
-    ``
+    ```
     function startGame():
         IF: Start button is clicked THEN
             INCREMENT: value of "i"
