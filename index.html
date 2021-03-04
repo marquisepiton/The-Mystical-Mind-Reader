@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Mind Reader</title>
+</head>
+
+<body class="position-absolute top-50 start-50 translate-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <!-- Empty Column -->
+      </div>
+      <div class="col-sm">
+        <div class="container">
+          <div class="row row-cols-1">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <!-- Mind Reader card is set in the third column -->
+                  <div class="card" style="width: 18rem; height: 35rem;">
+                    <div class="col">
+                      <!-- This text will change -->
+                      <h1 id='instruction'>I can read your mind! <img
+                          class="position-absolute top-50 start-50 translate-middle"
+                          src="/img/fortuneTellerHandsAndBall.webp" alt=""></h1>
+
+                    </div>
+                    <!-- A button ("Next/Reveal" will appear once the user starts the game.) -->
+                    <!-- Hidden at first, should appear with the start button is clicked -->
+                    <div class="col">
+                      <div class="nextButton">
+                        <div class="position-absolute top-50 start-50 translate-middle"><button type="button"
+                            class="btn btn-info" id="next" hidden>NEXT</button>
+                        </div>
+                      </div>
+                      <!-- Hidden at first, should appear when the arrays have reached the end-->
+                      <div class="col">
+                        <div class='resetButton'>
+                          <div class="position-absolute top-50 start-50 translate-middle"><button class="btn btn-info"
+                              type="button" id="reveal" hidden>Reveal</button></div>
+                        </div>
+                        <div class="col">
+                          <!-- This will show the hint text. -->
+                          <p class="position-absolute bottom-0 start-50 translate-middle-x" id="hint"></p>
+                        </div>
+
+                        <!-- Button Start -->
+                        <div class="col">
+                          <div class="position-absolute bottom-0 end-0">
+                            <div class='start'><button type="button" class="btn btn-outline-info" id="start"><svg
+                                  id="i-start" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32"
+                                  height="32" fill="none" stroke="currentcolor" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="2">
+                                  <path d="M8 2 L8 16 22 2 22 30 8 16 8 30" />
+                                </svg>
+                              </button></div>
+                          </div>
+
+                          <!-- Button Reset -->
+                          <div class="col">
+                            <div class="position-absolute bottom-0 end-0">
+                              <div class='reset'><button type="button" class="btn btn-outline-info" id="reset"
+                                  hidden><svg id="i-reload" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                    width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2">
+                                    <path
+                                      d="M29 16 C29 22 24 29 16 29 8 29 3 22 3 16 3 10 8 3 16 3 21 3 25 6 27 9 M20 10 L27 9 28 2" />
+                                  </svg></button></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <!-- Empty Column -->
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+      <script src="/js/main.js"></script>
+
+
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

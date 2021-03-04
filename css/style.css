@@ -1,0 +1,62 @@
+html{
+    
+    margin-top: 20px;
+    
+  
+}
+
+
+h1{
+
+    font-size: 40px;
+    color: #a8a5a4fd;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.start{
+
+   float: right;
+   margin: 10px;
+    
+}
+.reset{
+
+    float: right;
+    margin: 10px;
+
+
+}
+.nextButton{
+    margin: 0px;
+}
+.revealButton{
+
+}
+
+
+#next{
+    color: white;
+    font-size: large;
+
+
+}
+#reveal{
+    color: white;
+    font-size: large;
+    margin: 10px;
+}
+#hint{
+
+    color: #0dcaf0; 
+    text-align: center;
+    font-weight: bold;
+    top: 350px;
+    
+    
+
+    
+
+}
+
