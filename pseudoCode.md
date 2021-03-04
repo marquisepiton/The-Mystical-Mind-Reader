@@ -33,12 +33,12 @@ The user will be able to play a game that the program will attempt to read their
     - User hits "Reveal": Show the user their symbol.
 
 ## Objects:
-    ### HTML/CSS
+     HTML/CSS
     - 4 Buttons ("Go/Start", "Next", "Reset", "Reveal)
     - 1 Bootstap card
     - 2 Text (h1/p)
 
-    ### JS
+     JS
     - 3 Arrays 
     - 1 Integer
 
