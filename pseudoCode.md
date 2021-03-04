@@ -7,6 +7,9 @@ The user will be able to play a game that the program will attempt to read their
 
 
 ## Steps: 
+
+    START: 
+    
     1. The user opens the App.[Start] "Go" (Button)
     2. Program tells the user to pick a number 01-99 (In head 1)
     3. The user hits "Next" (Button)
@@ -19,6 +22,8 @@ The user will be able to play a game that the program will attempt to read their
     9. User hits "Reveal" button
     10. Program shows the user the predicted symbol. 
     11. User hits "reset" (Button) and will send user back to "step 1"
+    
+    END. 
 
 
 ## Events: 
