@@ -1,7 +1,9 @@
 
 # Mind Reader pseudo Code.
 
-## Objective: The user will be able to play a game that the program will attempt to read their mind.
+## Objective: 
+
+The user will be able to play a game that the program will attempt to read their mind.
 
 
 ## Steps: 
