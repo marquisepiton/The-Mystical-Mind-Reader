@@ -37,30 +37,30 @@
 
 ## Function (Not in order): 
     
-    '''
+    ``
     function startGame():
         IF: Start button is clicked THEN
             INCREMENT: value of "i"
             Display: 2nd card. 
-    '''
-    '''
+    ```
+    ```
     function nextCard():
         IF: Next button is clicked THEN
         INCREMENT: value of "i"
         Display: next card.
 
-    '''
-    '''
+    ```
+    ```
     function revealSymbol():
         IF: "i" is at the end of the array THEN
         DISPLAY: "Reveal Button"
         CALCULATE: Random value to get Which index should be selected in Symbol Array. 
         DISPLAY: The symbol
-    '''
+    ```
 
-    '''
+    ```
     function resetGame():
         IF: Reset Button is clicked THEN
             Refresh the page.
-    '''
+    ```
 
